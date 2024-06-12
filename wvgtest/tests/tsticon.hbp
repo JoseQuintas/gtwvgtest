@@ -1,0 +1,7 @@
+tsticon.prg
+tstall.rc
+tsticon.rc
+-L..
+../wvgtest.hbc
+-w3
+-es2

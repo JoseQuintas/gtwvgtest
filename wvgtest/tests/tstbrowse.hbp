@@ -1,0 +1,6 @@
+tstbrowse.prg
+tstall.rc
+-L..
+../wvgtest.hbc
+-w3
+-es2
