@@ -129,8 +129,10 @@ CREATE CLASS wvgTstCommandLink INHERIT wvgtstControl
 
    ENDCLASS
 
-   //CREATE CLASS wvgTstDateTimePicker INHERIT wvgtstControl
-   //ENDCLASS
+   CREATE CLASS wvgTstDatePicker INHERIT wvgtstControl
+      VAR ClassName  INIT  "SysDateTimePick32"
+      VAR Style      INIT WS_CHILD + WS_TABSTOP
+   ENDCLASS
 
 CREATE CLASS wvgTstEdit INHERIT wvgtstControl
 

@@ -4,8 +4,8 @@
 
 -stop{!allwin}
 -hblib
--o../lib/wvgtest
--hbx=../lib/wvgtest.hbx
+-olib/wvgtest
+-hbx=lib/wvgtest.hbx
 -Iinclude
 -w3
 -es2

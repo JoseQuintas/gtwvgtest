@@ -97,6 +97,10 @@ PROCEDURE Main
       :Create( , , { -21, -15 }, { -1, -10 } )
    ENDWITH
 
+   WITH OBJECT aCtlList[ nCtlIndex++ ] := wvgTstDatePicker():New()
+      :Create( , , { -25, -19 }, { -1, - 10 } )
+   ENDWITH
+
    WITH OBJECT aCtlList[ nCtlIndex++ ] := wvgtstRectangle():New()
       :Create( , , { -19, -30 }, { -3, -10 } )
       :SetColorBG( WIN_RGB( 52, 101, 164 ) )

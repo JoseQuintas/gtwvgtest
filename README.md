@@ -1,2 +1,4 @@
+# wvgtest
+Tests with other controls
 
-functions to enhance gtwvg
+require rmchart.dll to use rmchart
